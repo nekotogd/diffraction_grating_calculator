@@ -4,7 +4,7 @@ Simple Python Program that solves values for the diffraction grating formula
 
 Usage:
 
-![image](https://user-images.githubusercontent.com/81257780/121316206-21e63600-c91a-11eb-8447-6259e829a307.png)
+![image](https://user-images.githubusercontent.com/81257780/121317601-86ee5b80-c91b-11eb-94c0-d001f9857f4d.png)
 
 Enter any 3 values that you know into the given spaces
 
