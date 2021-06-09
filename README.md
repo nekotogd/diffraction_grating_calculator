@@ -13,15 +13,16 @@ Simple Python Program that solves values for the diffraction grating formula
 * Remember that anything written in standard form should be rewritten using "2.99e+08" format
 
 * For example: 3 x 10^8 should be written as 3e+08
+
 or 2.5 x 10^-5 should be written as 2.5e-05
 
 
 
 <h1>Additional notes:</h1>
 
-If you enter invalid values the program will clear all the text fields, indicating that some value does not mathematically work out
+* If you enter invalid values the program will clear all the text fields, indicating that some value does not mathematically work out
 
-You can also use the "Clear values" button to clear all the text fields and start over
+* You can also use the "Clear values" button to clear all the text fields and start over
 
-If you want you can also write values as normal decimals such as 0.00002546 instead of standard form
+* If you want you can also write values as normal decimals such as 0.00002546 instead of standard form
 
