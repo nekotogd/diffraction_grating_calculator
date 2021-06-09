@@ -141,7 +141,7 @@ clear_button = tk.Button(window, text = "Clear values", command = clear_all_butt
 exit_button = tk.Button(window, text = "Exit", command = window.destroy)
 
 #Arrange all UI elements
-conversion_label.grid(row = 0, sticky = 'nsew')
+conversion_label.grid(column = 1, row = 0, sticky = 'nsew')
 
 n_label.grid(column = 0, row = 1 , sticky = 'nsew')
 n.grid(column = 1, row = 1, sticky = 'ew')
