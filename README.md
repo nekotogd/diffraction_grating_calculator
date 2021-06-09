@@ -18,6 +18,8 @@ or 2.5 x 10^-5 should be written as 2.5e-05
 
 
 
+Additional notes:
+
 If you enter invalid values the program will clear all the text fields, indicating that some value does not mathematically work out
 
 You can also use the "Clear values" button to clear all the text fields and start over
