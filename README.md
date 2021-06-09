@@ -2,7 +2,7 @@
 Simple Python Program that solves values for the diffraction grating formula
 
 
-Usage:
+<h1>Usage:</h1>
 
 ![image](https://user-images.githubusercontent.com/81257780/121317601-86ee5b80-c91b-11eb-94c0-d001f9857f4d.png)
 
@@ -18,7 +18,7 @@ or 2.5 x 10^-5 should be written as 2.5e-05
 
 
 
-Additional notes:
+<h1>Additional notes:</h1>
 
 If you enter invalid values the program will clear all the text fields, indicating that some value does not mathematically work out
 
