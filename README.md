@@ -2,15 +2,13 @@
 Simple Python Program that solves values for the diffraction grating formula
 
 <h1>Where is the file?</h1>
-See the Green button in the top right that says "Code"?
+See the right side of the page?
 
-Hit that and then download as zip (this is process known as cloning the repository btw)
+Theres a part there called "Releases"
 
-Now extract the zip file
+Go to that link and download "diffraction_grating_calculator.exe"
 
-Head to the the "dist" folder
-
-Run "diffraction_grating_calculator.exe"
+Then simply run the file
 
 <h1>Usage:</h1>
 
