@@ -12,7 +12,7 @@ Simple Python Program that solves values for the diffraction grating formula
 
 * Remember that anything written in standard form should be rewritten using "2.99e+08" format
 
-* For example: 3 x 10^8 should be written as 3e+08 <h6>or</h6> 2.5 x 10^-5 should be written as 2.5e-05
+* For example: 3 x 10^8 should be written as 3e+08 <h5>or</h5> 2.5 x 10^-5 should be written as 2.5e-05
 
 
 
