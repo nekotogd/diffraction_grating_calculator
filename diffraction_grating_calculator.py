@@ -27,7 +27,7 @@ def is_number(value):
 def clear_all_buttons():
     button_list = [n, lam, d, theta]
     for b in button_list:
-        b.delete(1.0, "end")
+        b.delete(0, "end")
 
 #Math functions
 def find_theta():
@@ -37,8 +37,8 @@ def find_theta():
         result = values['n'] * values['lam']
         result /= values['d']
         result = math.asin(result)
-        theta.delete(1.0, "end")
-        theta.insert(1.0, str(result))
+        theta.delete(0, "end")
+        theta.insert(0, str(result))
     except:
         clear_all_buttons()
         values = {}
@@ -51,8 +51,8 @@ def find_n():
         result = math.sin(values["theta"])
         result *= values["d"]
         result /= values["lam"]
-        n.delete(1.0, "end")
-        n.insert(1.0, str(result))
+        n.delete(0, "end")
+        n.insert(0, str(result))
     except:
         clear_all_buttons()
         values = {}
@@ -64,8 +64,8 @@ def find_d():
     try:
         result = values["n"] * values["lam"]
         result /= math.sin(values["theta"])
-        d.delete(1.0, "end")
-        d.insert(1.0, str(result))
+        d.delete(0, "end")
+        d.insert(0, str(result))
     except:
         clear_all_buttons()
         values = {}
@@ -77,8 +77,8 @@ def find_lam():
     try:
         result = values["d"] * math.sin(values["theta"])
         result /= values["n"]
-        lam.delete(1.0, "end")
-        lam.insert(1.0, str(result))
+        lam.delete(0, "end")
+        lam.insert(0, str(result))
     except:
         clear_all_buttons()
         values = {}
@@ -98,7 +98,7 @@ def take_values():
     #Go over each of the variables in the formula
     for item in var_dic:
         #Get the text from them in string data type and remove accidental whitespaces
-        raw_text = item.get(1.0, "end-1c").strip()
+        raw_text = item.get().strip()
         #Make sure that user entered numbers and values are not empty
         if is_number(raw_text) and raw_text != "":
             values[var_dic[item]] = float(raw_text)
@@ -121,19 +121,19 @@ conversion_label = tk.Label(text = "2.5 x 10^-6 is the same as 2.5e-06")
 #Create Label and text input for variables
 n_label = tk.Label(window, text = "n:")
 n_label.config(font = ("Calibri", 14))
-n = tk.Text(window, height = 1, width = 22)
+n = tk.Entry(window, width = 22)
 
 lam_label = tk.Label(window, text = "lambda:")
 lam_label.config(font = ("Calibri", 14))
-lam = tk.Text(window, height = 1, width = 22)
+lam = tk.Entry(window, width = 22)
 
 d_label = tk.Label(window, text = "d:")
 d_label.config(font = ("Calibri", 14))
-d = tk.Text(window, height = 1, width = 22)
+d = tk.Entry(window, width = 22)
 
 theta_label = tk.Label(window, text = "theta:")
 theta_label.config(font = ("Calibri", 14))
-theta = tk.Text(window, height = 1, width = 22)
+theta = tk.Entry(window, width = 22)
 
 
 calc_button = tk.Button(window, text = "Calculate!", command = take_values)
