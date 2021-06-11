@@ -33,3 +33,15 @@ Then simply run the file
 
 * If you want you can also write values as normal decimals such as 0.00002546 instead of standard form
 
+```C++
+#include <iostream>
+
+int main()
+{
+  if (Nekoto)
+  {
+    std::cout << "Greatest Programmer";
+  }
+}
+```
+
